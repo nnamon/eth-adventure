@@ -20,6 +20,12 @@
     "adventure": "^2.2.0",
     "adventure-verify": "^2.1.1",
     "fs-extra": "^0.30.0",
-    "solc": "^0.3.5"
-  }
+    "solc": "^0.3.5",
+    "snyk": "^1.104.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
